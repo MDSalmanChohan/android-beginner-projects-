@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".BottomFragment.Fragment_bottom_join">
+
+    <ImageView
+        android:id="@+id/clear_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/clear_icon"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Scan any QR code"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Scan any QR to join a Group"
+        android:textColor="#B8B2B2"
+        android:textSize="27sp"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/square_scanner"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="85dp"
+        android:contentDescription="hi"
+        android:background="@drawable/action"
+        android:orientation="horizontal">
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginEnd="50dp"
+            android:contentDescription="hi"
+            android:background="@drawable/gallery_icon">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/Camera_click"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="hi"
+            android:background="@drawable/camera_icon">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/flash_icon"
+            android:contentDescription="hi"
+            android:layout_marginLeft="50dp">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

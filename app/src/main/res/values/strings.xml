@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Photobomb</string>
+
+
+    <string name="Open">open</string>
+    <string name="Close">close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="check_internet_connection">No Internet Connection</string>
+    <string name="select">select Item</string>
+
+
+</resources>
